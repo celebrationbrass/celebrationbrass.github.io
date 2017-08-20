@@ -1,0 +1,187 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: LightYellow;
+}
+
+.header {
+	text-align: center;
+	background-color: Silver;
+	padding: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: Blue;
+}
+
+div.header {
+	margin-bottom: 10px:
+}
+
+img.logo {
+	margin-bottom: 10px;
+}
+
+img.logo.side {
+	width: 78px;
+	height: 149px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+img.logo.side.right {
+	float: right;
+}
+
+img.logo.side.left {
+	float: left;
+}
+
+img.logo.main {
+	width: 501px;
+	height: 150px;
+}
+
+table.nav {
+	width: 100%;
+}
+
+table.nav td {
+	width: 20%;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+img.main_pic {
+	float: left;
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div.addl_info {
+	clear: both;
+}
+
+div.performances {
+	overflow: hidden;
+}
+
+div.performance h3 {
+	padding-left: 25px;
+	margin-bottom: 6px;
+}
+
+div.performance p {
+	padding-left: 35px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+div.performance .map_link {
+	font-size: 80%;
+}
+
+div.past_performances div.year.odd {
+	overflow: hidden;
+	clear: both;
+	float: left;
+	width: 50%;
+}
+
+div.past_performances div.year.even {
+	overflow: hidden;
+}
+
+div.musician_bios img {
+	margin-bottom: 10px;
+	width: 600px;
+	height: 450px;
+}
+
+div.musician_bios div.bio {
+	overflow: hidden;
+}
+
+div.musician_bios .odd img {
+	float: left;
+	margin-right: 10px;
+}
+
+div.musician_bios .even img {
+	float: right;
+	margin-left: 10px;
+}
+
+.contact_info {
+	text-align: center;
+}
+
+.contact_info img {
+	margin-top: 20px;
+}
+
+div.sample_programs {
+	overflow: hidden;
+}
+
+div.audio_samples {
+	overflow: hidden;
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  border-bottom-style: ridge;
+  border-bottom-width: medium;
+}
+
+div.program {
+	overflow: hidden;
+}
+
+div.program h3 {
+	padding-left: 25px;
+	margin-bottom: 10px;
+}
+
+div.program h4 {
+	padding-left: 25px;
+	margin-top: 10px;
+}
+
+div.program table {
+	padding-left: 25px;
+}
+
+div.program.left {
+	clear: both;
+	float: left;
+	width: 50%;
+}
+
+.program th {
+	vertical-align: top;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.program li {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+div.program .audio_link {
+	font-size: 80%;
+}
+
+.audio_samples ul {
+	margin-top: 0;
+}
+
+.audio_samples li {
+	list-style-type: none;
+}
