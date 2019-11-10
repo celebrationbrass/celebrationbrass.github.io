@@ -83,14 +83,14 @@ div.performance .map_link {
     font-size: 80%;
 }
 
-div.past_performances div.year.even {
+div.past_performances div.year.odd {
     overflow: hidden;
     clear: both;
     float: left;
     width: 50%;
 }
 
-div.past_performances div.year.odd {
+div.past_performances div.year.even {
     overflow: hidden;
 }
 
