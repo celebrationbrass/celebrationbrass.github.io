@@ -85,13 +85,13 @@ div.performance .map_link {
 
 div.past_performances div.year.even {
     overflow: hidden;
-    clear: both;
-    float: left;
-    width: 50%;
 }
 
 div.past_performances div.year.odd {
     overflow: hidden;
+    clear: both;
+    float: left;
+    width: 50%;
 }
 
 div.musician_bios img {
