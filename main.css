@@ -98,6 +98,16 @@ div.past_performances div.year.odd {
     overflow: hidden;
 }
 
+div.past_performances div.performance a {
+    pointer-events: none;
+    text-decoration: none;
+    color: currentColor;
+}
+
+div.past_performances span.map_link, span.directions_link {
+    display: none;
+}
+
 div.musician_bios img {
     margin-bottom: 10px;
 }
