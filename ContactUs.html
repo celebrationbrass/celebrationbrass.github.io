@@ -6,7 +6,18 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
-<body>
+<body onload="set_e_address()">
+
+<script type="application/javascript">
+    function set_e_address() {
+       var nm = 'info'
+       var dm = document.domain
+       var lnk = document.getElementById("e_addr")
+       lnk.text = nm + '@' + dm
+       lnk.href = 'mailto:' + lnk.text
+    }
+</script>
+
 <div class="header">
     <img src="images/logo-left.jpg" alt="Celebration" class="logo side left">
     <img src="images/logo-right.jpg" alt="Celebration" class="logo side right">
@@ -29,7 +40,7 @@
 
     <div class="contact_info">
         <p>To reserve the quintet for your celebration or event, call <span class="phone_num">(952)&nbsp;545-6477</span> for availability and rates.</p>
-        <p>For general information, email us at <a href="mailto:CelebrationBrass@comcast.net">CelebrationBrass@comcast.net</a></p>
+        <p>For general information, email us at <a id="e_addr"></a></p>
         <p>Sample programs and audio clips are available <a href="Samples.html">here</a>.</p>
     </div>
 </div>
