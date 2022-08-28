@@ -3,19 +3,13 @@ body {
     font-size: 100%;
 }
 
-.header {
+div.header {
     text-align: center;
     padding: 10px;
     border-style: solid;
     border-width: 5px;
     border-color: Blue;
-}
-
-div.header {
     margin-bottom: 10px;
-}
-
-div.header {
     font-size: 125%;
     font-family: Garamond, Georgia, serif;
 }
@@ -60,6 +54,35 @@ img.main_pic {
 
 div.addl_info {
     clear: both;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: Blue;
+    margin-bottom: 10px;
+}
+
+ul.availability_list {
+    display:inline-block;
+    padding:0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align:center
+}
+
+ul.availability_list li {
+    display: inline;
+    white-space: nowrap;
+}
+
+/* Got this solution from Tom Robinson here: https://stackoverflow.com/questions/15306108/how-to-style-a-horizontal-list-with-bullets-between-items-using-css.
+    It adds a space with a background image after each list item. When the browser wraps, it replaces the space with a line feed, whose width is 0; therefore the background image doesn't show.
+*/
+ul.availability_list li:after {
+    content: " ";
+    letter-spacing: 1em;
+    background:center center no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4xMkMEa+wAAAAnSURBVBhXY/Dz89MA4sNA/B9Ka4AEYQIwfBgkiCwAxjhVopnppwEApxQqhnyQ+VkAAAAASUVORK5CYII=);
 }
 
 div.performances {
