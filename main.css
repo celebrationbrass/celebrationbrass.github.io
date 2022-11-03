@@ -125,7 +125,7 @@ div.past_performances div.performance a {
     color: currentColor;
 }
 
-div.past_performances span.map_link, span.directions_link {
+div.past_performances span.map_link, div.past_performances span.directions_link {
     display: none;
 }
 
